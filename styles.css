@@ -1,0 +1,130 @@
+#profileheader{
+    text-align: center;
+    font-size: 50pt;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+
+#navigation-bar {
+
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    border-color: black;
+   
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 25pt;
+}
+
+#navigation-bar a {
+  color: rgb(0, 13, 4);
+  border: 2px solid black;
+  border-radius: 1px;
+
+}
+
+#navigation-bar a:active{
+  color: rgb(253, 253, 253);
+  border: 2px solid rgb(0, 0, 15);
+  border-radius: 1px;
+  transform: scale(0.95);
+
+}
+
+.currentPage{
+    background-color: rgb(106, 219, 91);
+    color: white;
+}
+
+.navlink{
+    border-color: rgb(158, 54, 54);
+    border-radius: 50px;
+    text-align: left;
+}
+
+body{
+    background-color: lightblue;
+}
+
+#professional-summary {
+    background-color: lightblue;
+    
+
+}
+
+#professional-summary h1 {
+    font-style: italic;
+}
+
+.western-governors-university {
+    color: navy;
+}
+
+hr {
+  height: 5px;
+  background-color: black;
+  margin: 2rem 0;
+}
+
+#work-experience h2 {
+    font-style: italic;
+}
+#work-experience ul {
+    background-color: lightgreen;
+    border: 2px solid navy;
+    border-radius: 1px;
+}
+
+#education h3 {
+    font-style: italic;
+}
+
+#current-date {
+    font-style: italic;
+    text-align: right;
+    margin-bottom: 1rem;
+    color: black;
+    margin-left: 45rem;;
+}
+
+#my-profile img {
+    display: block;
+    margin: 0 auto;
+}
+
+#contact-form {
+    background-color: lightgreen;
+    padding: 2rem;
+    max-width: 400px;
+    margin: 2rem auto;
+    border-radius: 8px;
+}
+
+#contact-form h2 {
+    text-align: center;
+}
+
+ #table, th, td {
+    border: 2px solid gray;
+    background-color: lightgreen;
+    border: 2px solid navy;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20pt;
+    margin-bottom: 30px;
+}
+
+.summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <title>Kelli's Resume</title>
+    </head>
+    
+    <body>
+        <section>
+        <header id="profileheader">Kelli's Portfolio</header>
+        <nav id="navigation-bar">
+        <a href="resume.html" class="currentPage">Resume</a>
+        <a href="Career-goals.html">Career Goals</a>
+        <a href="Cover-letter.html">Cover Letter</a>
+        </nav>
+        </section>
+        <hr>
+        <main>
+        <section id="professional-summary">
+        <div class="summary-header">
+        <h2>PROFESSIONAL SUMMARY<span id="current-date"></span></h2> <!-- Date will appear here-->
+        </div>
+
+    
+        <p>Dependable worker with knowledge of customer service, data entry, and records management. <em>Highly organized</em> and 
+        <em>self-motivated</em>, with <em>excellent communication</em> and interpersonal skills. Demonstrated ability to <mark>prioritize tasks</mark> 
+        and <mark>meet deadlines</mark>. Continuous learner in ongoing education in <span class="western-governors-university">
+        Western Governors University</span>.</p>
+        </section>
+        <hr>
+
+
+        <section id="work-experience">
+        <h2>WORK EXPERIENCE</h2>
+        
+        <article>
+ 	    <p><strong>August 2022 - Present</strong><br>
+        <strong>HR & DevOps Assistant</strong><br>
+        IMPRES Technology Solutions, Round Rock 
+        <ul>
+            <li>Communicated with state agencies</li> 
+            <li>Managed new hire documentation on SharePoint</li>
+            <li>Conducted AAP and I-9 Audits for compliance</li> 
+            <li>Independent learning of Salesforce software</li>
+            <li>Converted documents in Python on Cursor</li>
+        </ul>
+        </article>
+        <br>
+        </section>
+        
+        <hr> <!--horizontal rule-->
+
+        <section id="education">
+        <article>
+        <h2>EDUCATION</h3>
+
+ 	    <p>Expected graduation June 2028<br>
+        Bachelor of Computer Science<br>
+        Western Governor's University</p> 
+        </article>
+        </section>
+
+        <hr>
+
+    
+        <section id="Table">
+        <table>  <!--Table four columns and 3 rows-->
+            <caption>Skills</caption>
+            <tr>
+            
+                <th>Category</th>
+                <th>Skill</th>
+                <th>Level</th>
+                <th>Projects</th>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>arrays</td>
+                <td>beginner</td>
+                <td>Class Roster</td>
+            </tr>
+            <tr> 
+                <td>HTML</td>
+                <td>website structure</td>
+                <td>intermediate</td>
+                <td>Portfolio Website</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>styling</td>
+                <td>beginner</td>
+                <td>Website Design</td>
+            </tr>
+        </table>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+        <p> Author: Kelli Haynes<br>
+        <a href="email:khay10@gmail.com">khay10@gmail.com</a></p>
+    </footer>
+
+    <script>
+        const dateDiv = document.getElementById('current-date');
+        const today = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        dateDiv.textContent = today.toLocaleDateString(undefined, options);
+    </script>
+    </body>
+</html> 
